@@ -1,0 +1,2 @@
+Actually, the result of new-if will only be guess or x and the sqrt-iter procedure will always
+be called, this will cause an infinite loop. 

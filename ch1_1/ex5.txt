@@ -1,0 +1,4 @@
+The procedure p will call itself. Once we call p, we will get trapped into a infinite
+recursion. In applicative-order evaluation, the interpreter will first evaluate (p), so we
+won't get any result.On the other hand, since x=0, we don't need to evaluate (p) actually.
+so we get 0 instead.
