@@ -1,0 +1,2 @@
+Normal Order: 18 times.
+Applicative Order: 4 times.
