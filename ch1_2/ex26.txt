@@ -1,0 +1,3 @@
+The original form of expmod is O(logN) time cost for sure because it is a linear recursion process.
+However, in Louis's version, it is a tree recursion which takes O(N) time.
+Note that actually it apply the same process twice each time in the new version.
