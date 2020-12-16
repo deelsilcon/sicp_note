@@ -51,9 +51,3 @@ Process whose state can be summarized by fixed number of state variables, togeth
 ```
 
 `fib` procedure calls itself twice each time it is invoked. If we draw the graph of its recursive-process, it will show us a tree. This is why we call it ***tree recursion***.
-
-
-
-### Ideas
-
-![Procedure](https://i.loli.net/2020/12/11/3ujqJfWMQ6IGl7g.png)

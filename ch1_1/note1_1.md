@@ -103,9 +103,3 @@ Logical composition operations:
 - (and e1 e2 …)
 - (or e1 e2 …)
 - (not e)
-
-
-
-### Ideas
-
-![Procedure](https://i.loli.net/2020/12/08/F8D12BbyfirWLa4.png)
