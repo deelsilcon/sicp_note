@@ -14,4 +14,5 @@ very beginning of each scheme file.
 ### Chapter2
 
 * [Chapter2-1](https://github.com/deelsilcon/sicp_note/tree/master/ch2_1)
+* [Chapter2-2](https://github.com/deelsilcon/sicp_note/tree/master/ch2_2)
 

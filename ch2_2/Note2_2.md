@@ -4,7 +4,7 @@
 
 1. **Closure**: In general, an operation for combining data objects satisfies the closure property if the results of combining things with that operation can themselves be combined *using the same operation*
 
-2. **Stratified design: **the notion that a complex system should be structured *as a sequence of levels that are described using a sequence of languages*.
+2. **Stratified design**: The notion that a complex system should be structured *as a sequence of levels that are described using a sequence of languages*.
 
 
 
@@ -64,7 +64,7 @@ With sequence, we can build more complexed data type such as tree. A tree is a k
 (list (list 1 2 ) (list 3 4))
 ```
 
-At last, ***conventional interfaces*** can be abstracted from sequences.![image-20201224173426653](D:\Projects\sicp\pictures\image-20201224173426653.png)
+At last, ***conventional interfaces*** can be abstracted from sequences.![image-20201224173426653](https://github.com/deelsilcon/sicp_note/blob/master/pictures/image-20201224173426653.png)
 
 The example in the book illustrates that we can simply use four conventional interfaces `enumberate`, `filter`, `map`, `accumulate` to implement difficult procedure as long as we implement conventional interfaces. 
 
@@ -72,4 +72,4 @@ The example in the book illustrates that we can simply use four conventional int
 
 #### 2.Stratified Design
 
-Stratified design pervades the engineering of complex systems. For example, in computer engineering, resistors and transistors are combined (and described using a language of analog circuits) to produce parts such as and-gates and or-gates, which form the primitives of a language for digital-circuit design.31 ese parts are combined to build processors, bus structures, and memory systems, which are in turn combined to form computers, using languages appropriate to computer architecture. Computers are combined to form distributed systems, using languages appropriate for describing network interconnections, and so on.
+Stratified design pervades the engineering of complex systems. For example, in computer engineering, resistors and transistors are combined (and described using a language of analog circuits) to produce parts such as and-gates and or-gates, which form the primitives of a language for digital-circuit design. These parts are combined to build processors, bus structures, and memory systems, which are in turn combined to form computers, using languages appropriate to computer architecture. Computers are combined to form distributed systems, using languages appropriate for describing network interconnections, and so on.
